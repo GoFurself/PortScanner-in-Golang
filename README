@@ -1,0 +1,21 @@
+Simple ports-scanner created with Golang.
+
+Description:
+Command-line tool written in Golang for scanning open ports on a given IP address or range of addresses. Created to get familiar with Golangs concurrency model. Nothing fancy, good starting point.
+
+Examples:
+- View main.go
+- `go run scanner.go 127.0.0.1 80` will scan port 80 on localhost.
+- `go run scanner.go 127.0.0.1 1-20000` will scan ports 1 through 20000 on localhost.
+
+Features:
+- **IP Parsing**: Validates and parses the target IP address.
+- **Port Range Parsing**: Allows for specifying individual ports or a range of ports to scan.
+- **Efficient Scanning**: Quickly scans the specified ports and identifies which ones are open.
+
+Disclaimer:
+This tool is intended for educational and legal network testing purposes only. The user must ensure all scanning activities are compliant with laws and regulations. The authors will not be responsible for any misuse or damage caused by this tool.
+
+Future Enhancements:
+- Implement CLI arguments adapter for more dynamic and user-friendly input handling.
+- Add more detailed scanning options and output formatting.
