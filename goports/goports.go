@@ -1,6 +1,6 @@
 package goports
 
-// * All there is * //
+// * All there is is here * //
 
 import (
 	"errors"
